@@ -18,11 +18,15 @@ You can click on markers and monuments name for full address (which sadly isn't 
 # install dependencies
 npm install
 
+# run it!
+npm start
+
 # build for production with minification
 npm run build
 
-# run it!
-npm start
+# run in production
+npm run serve
+And then visit localhost:5000
 ```
 
 ## Special thanks
