@@ -36,6 +36,7 @@ class Location extends Component {
         onClick={this.locationClick.bind(this)}
         onKeyPress={this.locationPress.bind(this)}
         data-id={index}
+        role="button"
       >
         {location.name}
       </li>

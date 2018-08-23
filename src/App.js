@@ -19,6 +19,9 @@ class App extends Component {
     mapdata.locations.forEach(function(e) {
       locationsarray.push(e);
     });
+    window.gm_authFailure = () => {
+      alert('google maps error')
+    }
   }
 
   updateQuery = query => {
